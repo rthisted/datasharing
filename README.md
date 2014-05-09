@@ -52,7 +52,11 @@ You know the raw data is in the right format if you:
 
 If you did any manipulation of the data at all it is not the raw form of the data. Reporting manipulated data
 as raw data is a very common way to slow down the analysis process, since the analyst will often have to do a
-forensic study of your data to figure out why the raw data looks weird. 
+forensic study of your data to figure out why the raw data looks weird.
+
+When you are creating your own raw data set by compiling or merging information from one or more sources (often 
+not computer readable), it is wise to make the data set you create as "tidy" as possible.  A raw data set that is
+also tidy is the best gift to your statistical collaborator.
 
 ### The tidy data set
 
